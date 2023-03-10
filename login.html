@@ -29,6 +29,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -39,7 +42,11 @@
             <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-sm-8 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                        <div class="col-sm-8 col-md-5 d-flex flex-column align-items-center justify-content-center">
+
+                            <div class="mb-3">
+                                <a href="/" class="text-start"><i class="fa-solid fa-arrow-left me-2"></i>Kembali ke beranda</a>
+                            </div>
 
                             <div class="card mb-3 border">
 
@@ -47,7 +54,7 @@
 
                                     <div class="pt-4 pb-2">
                                         <div class="text-center">
-                                            <a href="#">
+                                            <a href="/">
                                                 <img src="assets/img/logo-sipara-white.png" class="col-8 mx-auto" alt="">
                                             </a>
                                         </div>
@@ -62,33 +69,27 @@
                                     </div>
 
                                     <!-- form start -->
-                                    <form class="row g-3 needs-validation" novalidate>
+                                    <form action="admin-dasbor.html" class="row g-3 needs-validation" novalidate>
 
                                         <div class="col-12">
 
                                             <div class="mb-3">
                                                 <label for="alamat_email" class="form-label">Alamat Email</label>
-                                                <input type="email" name="alamat_email" id="alamat_email" class="form-control form-control-lg" required>
+                                                <input type="email" name="alamat_email" id="alamat_email" class="form-control form-control-lg" value="jekson@gmail.com" required>
                                                 <div class="invalid-feedback">Silahkan masukan alamat email!</div>
                                             </div>
     
                                             <div class="mb-3">
                                                 <label for="kata_sandi" class="form-label">Kata Sandi</label>
-                                                <input type="password" name="kata_sandi" id="kata_sandi" class="form-control form-control-lg" required>
+                                                <input type="password" name="kata_sandi" id="kata_sandi" class="form-control form-control-lg" value="jekson@gmail.com" required>
                                                 <div class="invalid-feedback">Silahkan masukan kata sandi!</div>
                                             </div>
-    
-                                            <div class="mb-3">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                                                    <label class="form-check-label" for="acceptTerms">Saya setuju dan menerima syarat dan Ketentuan</label>
-                                                    <div class="invalid-feedback">Anda harus setuju sebelum mengirimkan.</div>
-                                                </div>
-                                            </div>
+                                            
+                                            <hr class="my-4">
 
-                                            <button type="submit" class="btn bt-lg btn-primary w-100 mb-3">Buat Akun</button>
+                                            <button type="submit" class="btn bt-lg btn-primary w-100 mb-3 fw-bold py-4 fs-4"><i class="fa-solid fa-right-to-bracket me-2"></i>Login</button>
 
-                                            <p class="small mb-0">Belum memiliki akun? <a href="daftar.html">Daftar</a></p>
+                                            <p class="small mb-0">Belum memiliki akun? <a href="daftar.html" class="fw-bold">Daftar</a></p>
 
                                         </div>
 
@@ -99,7 +100,7 @@
                             </div>
 
                             <div class="credits">
-                                Developted by <a href="https://nokensoft.com/" target="_blank">Nokensoft</a>
+                                Copyright &copy; 2023 - Developted by <a href="https://nokensoft.com" class="fw-bold" target="_blank">Nokensoft</a>.
                             </div>
 
                         </div>

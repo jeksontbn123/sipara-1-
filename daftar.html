@@ -29,6 +29,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
@@ -39,7 +42,11 @@
             <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-sm-8 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                        <div class="col-sm-8 col-md-5 d-flex flex-column align-items-center justify-content-center">
+
+                            <div class="mb-3">
+                                <a href="/" class="text-start"><i class="fa-solid fa-arrow-left me-2"></i>Kembali ke beranda</a>
+                            </div>
 
                             <div class="card mb-3 border">
 
@@ -47,7 +54,7 @@
 
                                     <div class="pt-4 pb-2">
                                         <div class="text-center">
-                                            <a href="#">
+                                            <a href="/">
                                                 <img src="assets/img/logo-sipara-white.png" class="col-8 mx-auto" alt="">
                                             </a>
                                         </div>
@@ -89,8 +96,10 @@
                                                 <input type="password" name="kata_sandi" id="kata_sandi" class="form-control form-control-lg" required>
                                                 <div class="invalid-feedback">Silahkan masukan kata sandi!</div>
                                             </div>
+                                            
+                                            <hr class="my-4">
     
-                                            <div class="mb-3">
+                                            <div class="mb-4">
                                                 <div class="form-check">
                                                     <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
                                                     <label class="form-check-label" for="acceptTerms">Saya setuju dan menerima syarat dan Ketentuan</label>
@@ -98,9 +107,9 @@
                                                 </div>
                                             </div>
 
-                                            <button type="submit" class="btn bt-lg btn-primary w-100 mb-3">Buat Akun</button>
+                                            <button type="submit" class="btn bt-lg btn-primary w-100 mb-3 fw-bold py-4 fs-4"><i class="fa-solid fa-user-plus me-2"></i>Buat Akun</button>
 
-                                            <p class="small mb-0">Sudah memiliki akun? <a href="login.html">Login</a></p>
+                                            <p class="small mb-0">Sudah memiliki akun? <a href="login.html" class="fw-bold">Login</a></p>
 
                                         </div>
 
@@ -111,7 +120,7 @@
                             </div>
 
                             <div class="credits">
-                                Developted by <a href="https://nokensoft.com/" target="_blank">Nokensoft</a>
+                                Copyright &copy; 2023 - Developted by <a href="https://nokensoft.com" class="fw-bold" target="_blank">Nokensoft</a>.
                             </div>
 
                         </div>
