@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>SIPARA - REGISTRASI</title>
+    <title>SIPARA</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -39,73 +39,79 @@
             <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4">
                 <div class="container">
                     <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+                        <div class="col-sm-8 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
-                            <div class="d-flex justify-content-center py-4">
-                                <a href="index.html" class="logo d-flex align-items-center w-auto">
-                                    <img src="assets/img/logo pendidikan.png" alt="">
-                                    <span class="d-none d-lg-block">SIPARA</span>
-                                </a>
-                            </div>
-                            <!-- End Logo -->
+                            <div class="card mb-3 border">
 
-                            <div class="card mb-3">
-
-                                <div class="card-body">
+                                <div class="card-header bg-primary p-5">                                   
 
                                     <div class="pt-4 pb-2">
-                                        <h5 class="card-title text-center pb-0 fs-4">Buat sebuah akun</h5>
-                                        <p class="text-center small">Masukkan detail pribadi Anda untuk membuat akun</p>
+                                        <div class="text-center">
+                                            <a href="#">
+                                                <img src="assets/img/logo-sipara-white.png" class="col-8 mx-auto" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-body p-5">
+
+                                    <div class="mb-5">
+                                        <h1 class="text-center fw-bold display-5">Buat akun baru</h1>
+                                        <p class="text-center small">Masukkan data Anda dengan baik dan benar, untuk membuat akun.</p>
                                     </div>
 
+                                    <!-- form start -->
                                     <form class="row g-3 needs-validation" novalidate>
-                                        <div class="col-12">
-                                            <label for="yourName" class="form-label">Nama Anda</label>
-                                            <input type="text" name="name" class="form-control" id="yourName" required>
-                                            <div class="invalid-feedback">Silahkan masukan nama anda!</div>
-                                        </div>
 
                                         <div class="col-12">
-                                            <label for="yourEmail" class="form-label">Email Anda</label>
-                                            <input type="email" name="email" class="form-control" id="yourEmail" required>
-                                            <div class="invalid-feedback">Silahkan masukan Email anda!</div>
-                                        </div>
 
-                                        <div class="col-12">
-                                            <label for="yourUsername" class="form-label">nama belakang</label>
-                                            <div class="input-group has-validation">
-                                                <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                                <input type="text" name="username" class="form-control" id="yourUsername" required>
-                                                <div class="invalid-feedback">Silakan pilih nama pengguna.</div>
+                                            <div class="mb-3">
+                                                <label for="nama_depan" class="form-label">Nama Depan</label>
+                                                <input type="text" name="nama_depan" id="nama_depan" class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">Silahkan masukan nama depan!</div>
                                             </div>
-                                        </div>
 
-                                        <div class="col-12">
-                                            <label for="yourPassword" class="form-label">Password</label>
-                                            <input type="password" name="password" class="form-control" id="yourPassword" required>
-                                            <div class="invalid-feedback">Silahkan masukan Password anda!</div>
-                                        </div>
-
-                                        <div class="col-12">
-                                            <div class="form-check">
-                                                <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
-                                                <label class="form-check-label" for="acceptTerms">Saya setuju dan menerima<a href="#">syarat dan Ketentuan</a></label>
-                                                <div class="invalid-feedback">Anda harus setuju sebelum mengirimkan.</div>
+                                            <div class="mb-3">
+                                                <label for="nama_belakang" class="form-label">Nama Belakang</label>
+                                                <input type="text" name="nama_belakang" id="nama_belakang" class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">Silahkan masukan nama depan!</div>
                                             </div>
+
+                                            <div class="mb-3">
+                                                <label for="alamat_email" class="form-label">Alamat Email</label>
+                                                <input type="email" name="alamat_email" id="alamat_email" class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">Silahkan masukan alamat email!</div>
+                                            </div>
+    
+                                            <div class="mb-3">
+                                                <label for="kata_sandi" class="form-label">Kata Sandi</label>
+                                                <input type="password" name="kata_sandi" id="kata_sandi" class="form-control form-control-lg" required>
+                                                <div class="invalid-feedback">Silahkan masukan kata sandi!</div>
+                                            </div>
+    
+                                            <div class="mb-3">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
+                                                    <label class="form-check-label" for="acceptTerms">Saya setuju dan menerima syarat dan Ketentuan</label>
+                                                    <div class="invalid-feedback">Anda harus setuju sebelum mengirimkan.</div>
+                                                </div>
+                                            </div>
+
+                                            <button type="submit" class="btn bt-lg btn-primary w-100 mb-3">Buat Akun</button>
+
+                                            <p class="small mb-0">Sudah memiliki akun? <a href="#">Login</a></p>
+
                                         </div>
-                                        <div class="col-12">
-                                            <button class="btn btn-outline-primary w-100 text-dark" type=""><a href="logout.html"> Buat Akun</a></button>
-                                        </div>
-                                        <div class="col-12">
-                                            <p class="small mb-0">Sudah memiliki akun?<a href="register.html">Daftar</a></p>
-                                        </div>
+
                                     </form>
+                                    <!-- form end -->
 
                                 </div>
                             </div>
 
                             <div class="credits">
-                                Designed by <a href="https://bootstrapmade.com/">SaCode</a>
+                                Developted by <a href="https://nokensoft.com/" target="_blank">Nokensoft</a>
                             </div>
 
                         </div>
