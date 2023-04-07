@@ -55,20 +55,13 @@
 
         <div class="d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/logo-sipara.png" alt="">
+                <img src="assets/img/logo-sipara.png" alt="" width="200px">
             </a>
         </div>
         <!-- End Logo -->
 
         <nav class="header-nav ms-auto">
             <ul class="d-flex align-items-center">
-
-                <li class="nav-item d-block d-lg-none">
-                    <a class="nav-link nav-icon search-bar-toggle " href="#">
-                        <i class="bi bi-search"></i>
-                    </a>
-                </li>
-                <!-- End Search Icon-->
 
                 <li class="nav-item dropdown pe-3">
                     <a href="login.html" class="btn btn-primary"><i
@@ -83,6 +76,7 @@
     </header>
     <!-- End Header -->
 
+    <!-- start conten -->
     <main id="main" class="main">
 
         <section class="section dashboard">
@@ -92,7 +86,7 @@
                 <div class="col-lg-8">
                     <div class="row">
 
-                        <!-- Data Jenjang Card -->
+                        <!-- Data Jenjang SD -->
                         <div class="col-xxl-4 col-xl-12">
 
                             <div class="card info-card customers-card">
@@ -120,7 +114,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                             <!-- <i class="bi bi-people"></i> -->
-                                            <img src="/assets/img/logo-sd.png" class="img-fluid" alt="">
+                                            <img src="./assets/img/logo-sd.png" class="img-fluid" alt="">
                                         </div>
                                         <div class="ps-3">
                                             <h6>40</h6>
@@ -135,7 +129,7 @@
                         </div>
                         <!-- End Data Jenjang Card -->
 
-                        <!-- Data Jenjang Card -->
+                        <!-- Data Jenjang SMP -->
                         <div class="col-xxl-4 col-xl-12">
 
                             <div class="card info-card customers-card">
@@ -160,7 +154,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                             <!-- <i class="bi bi-people"></i> -->
-                                            <img src="/assets/img/logo-smp.png" class="img-fluid" alt="">
+                                            <img src="./assets/img/smp.png" class="img-fluid" alt="">
                                         </div>
                                         <div class="ps-3">
                                             <h6>10</h6>
@@ -175,7 +169,7 @@
                         </div>
                         <!-- End Data Jenjang Card -->
 
-                        <!-- Data Jenjang Card -->
+                        <!-- Data Jenjang SMA-->
                         <div class="col-xxl-4 col-xl-12">
 
                             <div class="card info-card customers-card">
@@ -200,7 +194,7 @@
                                     <div class="d-flex align-items-center">
                                         <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                                             <!-- <i class="bi bi-people"></i> -->
-                                            <img src="/assets/img/logo-smp.png" class="img-fluid" alt="">
+                                            <img src="./assets/img/sma.png" class="img-fluid" alt="">
                                         </div>
                                         <div class="ps-3">
                                             <h6>50</h6>
@@ -215,46 +209,34 @@
                         </div>
                         <!-- End Data Jenjang Card -->
 
-
-                        <!-- Top Selling -->
+                        <!-- Top Selling NAMA-NAMA DISTRIK -->
                         <div class="col-12">
                             <div class="card top-selling overflow-auto">
-
-                                <div class="filter">
-                                    <a class="icon" href="#" data-bs-toggle="dropdown"><i
-                                            class="bi bi-three-dots"></i></a>
-                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                                        <li class="dropdown-header text-start">
-                                            <h6>Filter</h6>
-                                        </li>
-
-                                        <li><a class="dropdown-item" href="#">Today</a></li>
-                                        <li><a class="dropdown-item" href="#">This Month</a></li>
-                                        <li><a class="dropdown-item" href="#">This Year</a></li>
-                                    </ul>
-                                </div>
-
                                 <div class="card-body pb-0">
                                     <h5 class="card-title">Data Distrik <span>| Filter Data Siswa Per Distrik</span>
                                     </h5>
-
+                                    <div class="input-group mb-3 position-absolute top-0 end-0 mt-2 me-3" style="width: 300px;">
+                                        <input type="text" class="form-control" placeholder="Cari Nama Distrik">
+                                        <button class="btn btn-success" type="submit">Cari</button>
+                                    </div>
                                     <table class="table table-bordered table-hover table-striped">
                                         <thead>
                                             <tr>
                                                 <th scope="col">Nama Distrik</th>
-                                                <th scope="col">SD</th>
-                                                <th scope="col">SMP</th>
-                                                <th scope="col">SMA</th>
-                                                <th scope="col">Total</th>
+                                                <th scope="col">Negri</th>
+                                                <th scope="col">Swasta</th>
+
+                                                <th scope="col">Total Sekolah</th>
+
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row"><a href="#">Kanggime</a></th>
-                                                <td>3</td>
+                                                <th scope="row"><a href="distrik.html">Kanggime</a></th>
+                                                <td>2</td>
+                                                <td>2</td>
+                                                <td>1</td>
                                                 <td>4</td>
-                                                <td>5</td>
-                                                <td>12</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row"><a href="#">Karubaga</a></th>
@@ -590,7 +572,8 @@
                             </div>
                         </div>
                         <!-- End Top Selling -->
-                        <!-- Top Selling -->
+
+                        <!-- Top Selling GRAFIK DISTRIK -->
                         <div class="col-12">
                             <div class="card top-selling overflow-auto">
                                 <div class="filter">
@@ -823,10 +806,19 @@
                 </div>
                 <!-- End Left side columns -->
 
-                <!-- Right side columns -->
+                <!-- BERITA -->
                 <div class="col-lg-4">
+                    <div class="card">
+                        <h5 class="card-title text-center text-bg-light">Sambutan Kepala Dinas Pendidikan<br> Kabupaten Tolikara</h5>
+                        <img src="./assets/img/kadis.png" class="card-img-top w-75 h-75 m-lg-5 " alt="...">
+                        <div class="card-body">
 
-                    <!-- News & Updates Traffic -->
+                            <p class="card-text mb-5">Puji syukur kita panjatkan ke hadirat Tuhan Yang Maha Kuasa atas penerbitan Peraturan Menteri Pendidikan dan Kebudayaan RI Nomor 79 Tahun 2015 tentang Data Pokok Pendidikan. <a href="sambutan.html" class="card-link text-info">Lihat Selengkapnya...</a>                                </p>
+
+                        </div>
+                    </div>
+
+                    <!-- BERITA -->
                     <div class="card">
                         <div class="filter">
                             <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -840,7 +832,6 @@
                                 <li><a class="dropdown-item" href="#">This Year</a></li>
                             </ul>
                         </div>
-
                         <div class="card-body pb-0">
                             <h5 class="card-title">Berita &amp; Info <span>| Terbaru</span></h5>
 
@@ -928,7 +919,7 @@
         </section>
 
     </main>
-    <!-- End #main -->
+    <!-- End content -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>SIPARA</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- =======================================================
+  * Template Name: NiceAdmin - v2.5.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <style>
+        #main,
+        #footer {
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo-sipara.png" alt="" width="200px">
+            </a>
+        </div>
+        <!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item dropdown pe-3">
+                    <a href="login.html" class="btn btn-primary"><i
+                            class="fa-solid fa-right-to-bracket me-2"></i>Login</a>
+                </li>
+                <!-- End Profile Nav -->
+
+            </ul>
+        </nav>
+        <!-- End Icons Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- start conten -->
+    <main id="main" class="main">
+
+        <section class="section dashboard">
+            <div class="row">
+                <!-- Left side columns -->
+                <div class="col-lg-12">
+                    <!-- Top Selling NAMA-NAMA sekolah -->
+                    <div class="col-12">
+                        <div class="card top-selling overflow-auto">
+                            <div class="card-body pb-0">
+                                <h5 class="card-title">Data Sekolah <span>| Filter Data Siswa Per Sekolah</span>
+                                </h5>
+                                <div class="input-group mb-3 position-absolute top-0 end-0 mt-2 me-3" style="width: 300px;">
+                                    <input type="text" class="form-control" placeholder="Cari Nama Distrik">
+                                    <button class="btn btn-success" type="submit">Cari</button>
+                                </div>
+                                <table class="table table-bordered table-hover table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Nama Sekolah</th>
+                                            <th scope="col">Negri</th>
+                                            <th scope="col">Swasta</th>
+                                            <th scope="col">Jumlah Sekola</th>
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kanggime</a></th>
+                                            <td>2</td>
+                                            <td>2</td>
+                                            <td>1</td>
+                                            <td>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Karubaga</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Bokondini</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kembu</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Goyage</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wunim</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wina</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Umagi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Panaga</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Woniki</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kubu</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kondaga</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Nelawi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kuari</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Bokoneri</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Bewani</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Nabunage</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Gilubandu</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Nunggawi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Gundagi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Numba</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Timori</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Dunda</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Geya</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Egiam</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Poganeri</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kamboneri</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Airgaram</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wari/Taiyeve</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Dow</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Tagineri</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Yuneri</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wokuwo</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Gika</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Telenggeme</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Anawi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wenam</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Wugi</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Danime</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Tagime</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Kai</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Aweku</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Bogonuk</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Li Anogomma</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Biuk</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row"><a href="#">Yuko</a></th>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>12</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Nama sekolah -->
+                </div>
+                <!-- End Left side columns -->
+            </div>
+        </section>
+
+    </main>
+    <!-- End content -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            Copyright &copy; 2023 - Developted by <a href="https://nokensoft.com" class="fw-bold" target="_blank">Nokensoft</a>.
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
