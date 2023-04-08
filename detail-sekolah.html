@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>SIPARA</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- =======================================================
+  * Template Name: NiceAdmin - v2.5.0
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <style>
+        #main,
+        #footer {
+            margin-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo-sipara.png" alt="" width="200px">
+            </a>
+        </div>
+        <!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item dropdown pe-3">
+                    <a href="login.html" class="btn btn-primary"><i
+                            class="fa-solid fa-right-to-bracket me-2"></i>Login</a>
+                </li>
+                <!-- End Profile Nav -->
+
+            </ul>
+        </nav>
+        <!-- End Icons Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- start conten -->
+    <!-- CONTENT -->
+    <div class="container isi">
+        <!-- Detail Sekolah Breadcrumb -->
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="breadcrumb" style="margin-bottom: 20px;" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <li>
+                        <a href="/">
+                            <i class="glyphicon glyphicon-home"></i> Beranda
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/sp">
+                            <span itemprop="name">Data Sekolah</span>
+                        </a>
+                        <meta itemprop="position" content="1" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/sp/1/250000">
+                            <span itemprop="name">Prov. Papua</span>
+                        </a>
+                        <meta itemprop="position" content="2" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/sp/2/251800">
+                            <span itemprop="name">Kab. Tolikara</span>
+                        </a>
+                        <meta itemprop="position" content="3" />
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+                        <a itemscope itemtype="http://schema.org/Thing" itemprop="item" href="/sp/3/251802">
+                            <span itemprop="name">Kec. Karubaga</span>
+                        </a>
+                        <meta itemprop="position" content="4" />
+                    </li>
+                    <li class="active">
+                        SD NEGERI BANGGERI
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="material">
+            <div class="profile">
+                <div class="cover">
+                    <span class="vec vec_a"></span>
+                    <span class="vec vec_b"></span>
+                    <span class="vec vec_c"></span>
+                    <span class="vec vec_d"></span>
+                    <span class="vec vec_e"></span>
+                </div>
+                <div class="info">
+                    <h2 class="name">SD NEGERI BANGGERI</h2>
+                    <div class="position">Sinkronisasi terakhir : <i>13 Februari 2023 pkl 17:53:48.377</i></div>
+                </div>
+                <a href="/getExcel/getProfilSekolah?semester_id=&sekolah_id=B69702F21A22024582C7                                                                                " class="btn btn-raised btn-success toggle"><i class="icon icon-file-excel"></i> Unduh Profil</a>
+            </div>
+        </div>
+
+        <div class="row profile">
+            <div class="col-md-3">
+                <div class="profile-sidebar">
+                    <!-- SIDEBAR USERPIC -->
+                    <div class="profile-userpic">
+                        <a href="#" class="sekolah-kita" title="Lihat SD NEGERI BANGGERI Lainnya" target="_blank">
+                            <img src="/assets/img/iconsekolah.png" class="img-responsive animated swing" alt="Profil SD NEGERI BANGGERI Lainnya">
+                        </a>
+                    </div>
+                    <!-- END SIDEBAR USERPIC -->
+                    <!-- SIDEBAR BUTTONS -->
+                    <div class="profile-userbuttons" style="padding-right: 20px; padding-left: 20px">
+                        <a href="http://sekolah.data.kemdikbud.go.id/index.php/chome/profil/6045c440-31f5-e011-908d-83fff0a3d039" title="Lihat data SD NEGERI BANGGERI di Sekolah Kita" target="_blank" class="btn btn-primary btn-raised btn-block">
+                    Data Sekolah Kita
+                </a>
+                    </div>
+                    <div class="profile-userbuttons" style="padding-right: 20px; padding-left: 20px">
+                        <a href="http://pmp.dikdasmen.kemdikbud.go.id/raporng/index.php?bp=5&level=5&tb=4&kd=60302250" title="Lihat Rapor PMP SD NEGERI BANGGERI" target="_blank" class="btn btn-warning btn-raised btn-block">
+                    Data Rapor PMP
+                </a>
+                    </div>
+                    <!-- END SIDEBAR BUTTONS -->
+                    <!-- SIDEBAR MENU -->
+                    <div class="profile-usermenu">
+                        <ul class="nav">
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-user"></i> Kepsek : <strong>Usay Yikwa</strong></a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <i class="glyphicon glyphicon-phone"></i> Operator : <strong>Martina Banne</strong></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-star"></i> Akreditasi : <strong>Tidak Terakreditasi</strong></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-book"></i> Kurikulum : <strong>Kurikulum 2013</strong></a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="glyphicon glyphicon-time"></i> Waktu : <strong>Pagi</strong></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END MENU -->
+                </div>
+                <br>
+            </div>
+            <div class="col-md-9">
+                <div class="profile-content">
+                    <div class="tabbable-panel">
+                        <div class="tabbable-line">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#profil" data-toggle="tab"><span class='icon icon-library2'></span>&nbsp; Profil</a></li>
+                                <li><a href="#rekapitulasi" data-toggle="tab"><i class="glyphicon glyphicon-tasks"></i>&nbsp; Rekapitulasi</a></li>
+                                <li><a href="#kontak" data-toggle="tab"><i class="glyphicon glyphicon-envelope"></i>&nbsp; Kontak</a></li>
+
+                            </ul>
+                            <div id="myTabContent" class="tab-content">
+                                <div class="tab-pane fade active in" id="profil">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">Identitas Sekolah</div>
+                                                <div class="panel-body">
+                                                    <p><strong>NPSN : </strong> 60302250 </p>
+                                                    <p><strong>Status : </strong>Negeri</p>
+                                                    <p><strong>Bentuk Pendidikan : </strong>SD</p>
+                                                    <p><strong>Status Kepemilikan : </strong>Pemerintah Daerah</p>
+                                                    <p><strong>SK Pendirian Sekolah : </strong></p>
+                                                    <p><strong>Tanggal SK Pendirian : </strong>2004-03-04</p>
+                                                    <p><strong>SK Izin Operasional : </strong>-</p>
+                                                    <p><strong>Tanggal SK Izin Operasional : </strong>1910-01-01</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">Data Pelengkap</div>
+                                                <div class="panel-body">
+                                                    <p><strong>Kebutuhan Khusus Dilayani : </strong>Tidak ada</p>
+                                                    <p><strong>Nama Bank : </strong>BPD PAPUA...</p>
+                                                    <p><strong>Cabang KCP/Unit : </strong>BPD PAPUA CABANG...</p>
+                                                    <p><strong>Rekening Atas Nama : </strong>FARLYIRWANTOROCA...</p>
+                                                    <!-- <p><strong>Luas Tanah Milik : </strong>3</p>
+                                            <p><strong>Luas Tanah Bukan Milik : </strong>0</p> -->
+                                                </div>
+                                            </div>
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">Data Rinci</div>
+                                                <div class="panel-body">
+                                                    <p><strong>Status BOS : </strong>Bersedia Menerima</p>
+                                                    <p><strong>Waku Penyelenggaraan : </strong>Pagi</p>
+                                                    <p><strong>Sertifikasi ISO : </strong>Belum Bersertifikat</p>
+                                                    <p><strong>Sumber Listrik : </strong>Tenaga Surya</p>
+                                                    <p><strong>Daya Listrik : </strong>1500</p>
+                                                    <p><strong>Akses Internet : </strong>Telkomsel Flash</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="rekapitulasi">
+                                    <div class="row">
+                                        <div class="col-md-4 col-md-push-8">
+                                            <select class="form-control" id="selectSemester" title="Pilih Semester">
+<option value="20222" disabled>Pilih Semester</option>
+<option value="20222" selected>Semester 2022/2023 Genap</option>
+<option value="20221">Semester 2022/2023 Ganjil</option>
+<option value="20212">Semester 2021/2022 Genap</option>
+<option value="20211">Semester 2021/2022 Ganjil</option>
+<option value="20202">Semester 2020/2021 Genap</option>
+<option value="20201">Semester 2020/2021 Ganjil</option>
+<option value="20192">Semester 2019/2020 Genap</option>
+<option value="20191">Semester 2019/2020 Ganjil</option>
+<!-- <option value="20182">Semester 2018/2019 Genap</option>
+<option value="20181">Semester 2018/2019 Ganjil</option>
+<option value="20172">Semester 2017/2018 Genap</option>
+<option value="20171">Semester 2017/2018 Ganjil</option>
+<option value="20162">Semester 2016/2017 Genap</option>
+<option value="20161">Semester 2016/2017 Ganjil</option>
+<option value="20152">Semester 2015/2016 Genap</option>
+<option value="20151">Semester 2015/2016 Ganjil</option>
+<option value="20142">Semester 2014/2015 Genap</option>
+<option value="20141">Semester 2014/2015 Ganjil</option> -->
+</select> </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Data PTK dan PD</div>
+                                        <div class="panel-body table-responsive">
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-left col-md-8">Uraian</th>
+                                                        <th class="text-right col-md-1">Guru</th>
+                                                        <th class="text-right col-md-1">Tendik</th>
+                                                        <th class="text-right col-md-1">PTK</th>
+                                                        <th class="text-right col-md-1">PD</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Laki-laki</td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk_laki"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pegawai_laki"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk-laki"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pd_laki"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Perempuan</td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk_perempuan"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pegawai_perempuan"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk-perempuan"></a>
+                                                        </td>
+                                                        <td class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pd_perempuan"></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr style="border-bottom: 1px solid #DDDDDD;">
+                                                        <th>Total</th>
+                                                        <th class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk"></a>
+                                                        </th>
+                                                        <th class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pegawai"></a>
+                                                        </th>
+                                                        <th class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="ptk-total"></a>
+                                                        </th>
+                                                        <th class="text-right">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="pd"></a>
+                                                        </th>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                            <br>
+                                            <p>
+                                                Keterangan :
+                                                <ul>
+                                                    <li>Data Rekap Per Tanggal <strong class="tanggal-sekarang-label"></strong></li>
+                                                    <li>Penghitungan PTK adalah yang sudah mendapat penugasan, berstatus aktif dan terdaftar di sekolah induk.</li>
+                                                    <li>
+                                                        Singkatan :
+                                                        <ol>
+                                                            <li>PTK = Guru ditambah Tendik</li>
+                                                            <li>PD = Peserta Didik</li>
+                                                        </ol>
+                                                    </li>
+                                                </ul>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Data Sarpras</div>
+                                        <div class="panel-body">
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <!-- // ruang_kelas
+                                                    // ruang_perpus
+                                                    // ruang_lab
+                                                    // ruang_praktik
+                                                    // ruang_pimpinan
+                                                    // ruang_guru
+                                                    // ruang_ibadah
+                                                    // ruang_uks
+                                                    // toilet
+                                                    // gudang
+                                                    // ruang_sirkulasi
+                                                    // tempat_bermain_olahraga
+                                                    // ruang_tu
+                                                    // ruang_konseling
+                                                    // ruang_osis
+                                                    // bangunan 
+                                                    -->
+
+                                                        <th class="text-center">No</th>
+                                                        <th class="text-left">Jenis Sarpras</th>
+                                                        <th class="text-center">Jml 2022 Ganjil</th>
+                                                        <th class="text-center">Jml 2022 Genap</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-left">Ruang Kelas</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_kelas"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_kelas"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-left">Ruang Perpustakaan</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_perpus"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_perpus"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">3</td>
+                                                        <td class="text-left">Ruang Laboratorium</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_lab"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_lab"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">4</td>
+                                                        <td class="text-left">Ruang Praktik</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_praktik"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_praktik"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">5</td>
+                                                        <td class="text-left">Ruang Pimpinan</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_pimpinan"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_pimpinan"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">6</td>
+                                                        <td class="text-left">Ruang Guru</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_guru"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_guru"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">7</td>
+                                                        <td class="text-left">Ruang Ibadah</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_ibadah"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_ibadah"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">8</td>
+                                                        <td class="text-left">Ruang UKS</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_uks"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_uks"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">9</td>
+                                                        <td class="text-left">Ruang Toilet</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_toilet"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_toilet"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">10</td>
+                                                        <td class="text-left">Ruang Gudang</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_gudang"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_gudang"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">11</td>
+                                                        <td class="text-left">Ruang Sirkulasi</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_sirkulasi"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_sirkulasi"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">12</td>
+                                                        <td class="text-left">Tempat Bermain / Olahraga</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_tempat_bermain_olahraga"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_tempat_bermain_olahraga"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">13</td>
+                                                        <td class="text-left">Ruang TU</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_tu"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_tu"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">14</td>
+                                                        <td class="text-left">Ruang Konseling</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_konseling"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_konseling"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">15</td>
+                                                        <td class="text-left">Ruang OSIS</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_ruang_osis"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_ruang_osis"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">16</td>
+                                                        <td class="text-left">Ruang Bangunan</td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before_bangunan"></a>
+                                                        </td>
+                                                        <td class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after_bangunan"></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr style="border-bottom: 1px solid #DDDDDD;">
+                                                        <th colspan="2" class="text-center">Total</th>
+                                                        <th class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="before-sarpras-total"></a>
+                                                        </th>
+                                                        <th class="text-center">
+                                                            <a href="https://sp.datadik.kemdikbud.go.id" class="after-sarpras-total"></a>
+                                                        </th>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Data Sanitasi</div>
+                                        <div class="panel-body">
+                                            <table class="table table-hover table-striped">
+                                                <thead>
+                                                    <tr>
+                                                        <th class="text-center">No</th>
+                                                        <th class="text-left">Nama Variabel</th>
+                                                        <th class="text-left">Uraian</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="text-center">1</td>
+                                                        <td class="text-left">Sumber air</td>
+                                                        <td class="text-left">
+                                                            <a class="sumber_air"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">2</td>
+                                                        <td class="text-left">Sumber air minum</td>
+                                                        <td class="text-left">
+                                                            <a class="sumber_air_minum"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">3</td>
+                                                        <td class="text-left">Kecukupan air bersih</td>
+                                                        <td class="text-left">
+                                                            <a class="kecukupan_air_bersih"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">4</td>
+                                                        <td class="text-left">Sekolah menyediakan jamban yang dilengkapi dengan fasilitas pendukung untuk digunakan oleh siswa berkebutuhan khusus</td>
+                                                        <td class="text-left">
+                                                            <a class="jamban_kk"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">5</td>
+                                                        <td class="text-left">Tipe Jamban</td>
+                                                        <td class="text-left">
+                                                            <a class="tipe_jamban"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">6</td>
+                                                        <td class="text-left">Jumlah hari dalam seminggu siswa mengikuti kegiatan cuci tangan berkelompok</td>
+                                                        <td class="text-left">
+                                                            <a class="jml_hari_cuci_tangan"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">7</td>
+                                                        <td class="text-left">Jumlah tempat cuci tangan</td>
+                                                        <td class="text-left">
+                                                            <a class="jml_wastafel"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">8</td>
+                                                        <td class="text-left">Jumlah tempat cuci tangan rusak</td>
+                                                        <td class="text-left">
+                                                            <a class="jml_wastafel_rusak"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">9</td>
+                                                        <td class="text-left">Apakah sabun dan air mengalir pada tempat cuci tangan</td>
+                                                        <td class="text-left">
+                                                            <a class="air_mengalir_wastafel"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">10</td>
+                                                        <td class="text-left">Sekolah memiliki saluran pembungan air limbah dari jamban</td>
+                                                        <td class="text-left">
+                                                            <a class="memiliki_drainase"></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="text-center">11</td>
+                                                        <td class="text-left">Sekolah pernah menguras tangki septik dalam 3 hingga 5 tahun terakhir dengan truk/motor sedot tinja</td>
+                                                        <td class="text-left">
+                                                            <a class="menguras_tangki_septik"></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">Data Rombongan Belajar</div>
+                                        <div class="panel-body">
+                                            <p><strong>SD NEGERI BANGGERI</strong> memiliki <strong>jumlah rombel</strong> sebanyak <strong class="rombel"></strong>, dengan uraian sebagai berikut:</p>
+                                            <div class="table-responsive">
+                                                <table class="table table-hover table-striped tabel-detail-pd">
+
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="kontak">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">
+                                                    Kontak Utama
+                                                </div>
+                                                <div class="panel-body">
+                                                    <p><strong>Alamat : </strong>Banggeri</p>
+                                                    <p><strong>RT / RW : </strong>0 / 0</p>
+                                                    <p><strong>Dusun : </strong></p>
+                                                    <p><strong>Desa / Kelurahan : </strong>Banggeri</p>
+                                                    <p><strong>Kecamatan : </strong>Kec. Karubaga</p>
+                                                    <p><strong>Kabupaten : </strong>Kab. Tolikara</p>
+                                                    <p><strong>Provinsi : </strong>Prov. Papua</p>
+                                                    <p><strong>Kode Pos : </strong>99562</p>
+                                                    <p><strong>Lintang : </strong>-3</p>
+                                                    <p><strong>Bujur : </strong>138</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-info">
+                                                <div class="panel-heading">Peta Lokasi</div>
+                                                <div class="panel-body">
+                                                    <div id="map" style="width:100%;height:380px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTENT -->
+    <!-- End content -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            Copyright &copy; 2023 - Developted by <a href="https://nokensoft.com" class="fw-bold" target="_blank">Nokensoft</a>.
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
